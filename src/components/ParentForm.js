@@ -33,6 +33,7 @@ class ParentForm extends Component {
         return (
             <div>
                 <ChildForm handleInputChange={this.handleInputChange} values={values} />
+            <p>{this.state.inputTextValue}</p>
             </div>
         )
     }
